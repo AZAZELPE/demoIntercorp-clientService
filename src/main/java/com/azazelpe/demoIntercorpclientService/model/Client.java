@@ -26,7 +26,6 @@ public class Client {
     @NotBlank
     private String apellido;
 
-    @NotBlank
     private Integer edad;
 
     @Column(nullable = false)
